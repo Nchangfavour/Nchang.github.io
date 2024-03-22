@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    padding:10px 10px;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar ul li a {
+    display:block;
+    color:black;
+    font:20px ;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 0 5px;
+    border-radius: 50px;
+    
+    }
+    .navbar ul li {
+        list-style:none ;
+        
+    }
+    .navbar ul li a:hover {
+    color: #11101b;
+    background: #fefefe;
+    transition: 0.2s;
+    
+    }
+    .navbar ul li a.active {
+        color: #11101b;
+        background-color: #fefefe;
+    }
+
+    .logo{
+        color: black;
+        padding-left: 2%;
+        padding-top: 2px;
+    }
+    header {
+        background-color: white;
+        padding-bottom:1px;
+        
+    }
+
+    
+ .one{
+        background-image: url(pic/Camera.jpg);
+        padding-top: 250px;
+        text-align: center;
+padding-left: -89px;
+background-size:cover;
+background-repeat: no-repeat;
+    }
+    
+  .second  #one{
+        width:60%;
+        height: 80%;
+        padding-left: 80px;
+
+    }
+    .third {
+        margin-left: -54px;
+        padding-right: 110px; ;
+    }
+    .third button{
+        width: 120px;
+        height: 30px;
+        border-radius: 3px;
+    }
+    .sub{
+        display:flex;
+        padding-top: 60px;
+    }
+    .fourth{
+margin-right: -54px;
+padding-left: 70px;
+    }
+    .five{
+        padding-right:200px;
+
+        margin-left: 145px;
+    }
+
+    .main1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sub1{
+        background-color: whitesmoke;
+        padding-top: 60px;
+        margin-top: 56px;
+    }
+    #two{
+        height: 100px;
+        width: 150px;
+        padding-top: 24px;
+    }
+    body{
+        border: dotted;
+        border-color: blueviolet;
+        border-radius: 39px;
+    }
+    footer{
+        padding-top: 10px;
+        background-color: skyblue;
+        height: 40px;
+    }
+    .subb{
+        display: flex;
+        
+    }
+   .subb .seven  small a {
+        text-decoration: none;
+    }
